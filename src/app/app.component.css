@@ -4,7 +4,6 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 .toolbar{
@@ -27,6 +26,9 @@
 .spacer{
   flex: 1;
 }
+h1, h2, p{
+  color: #AD904Aff;
+}
 
 .content{
   display: flex;
@@ -35,6 +37,5 @@
   max-width:max-content;
   flex-direction:column;
   align-items: center;
-
 }
 
