@@ -12,7 +12,8 @@ export class AppComponent {
   logo = 'assets/big_dipper_2.png';
   bigDipper = 'assets/ursa-major.png';
   stateFlag = 'assets/texas_flag_2.png';
-  clock: Date | undefined;
+  clock: Date | string | undefined;
+
 
   constructor(){
     setInterval(()=>{

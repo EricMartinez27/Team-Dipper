@@ -14,8 +14,8 @@
   height: 90px;
   display: flex;
   align-items: center;
-  background-color: rgb(164, 224, 248);
-  color: rgb(102, 66, 0);
+  background-color: #887B51ff;
+  color:#DBDFE1ff;
   font-weight:bold;
 }
 
@@ -27,7 +27,7 @@
   flex: 1;
 }
 h1, h2, p{
-  color: #AD904Aff;
+  color: #DCCA89ff;
 }
 
 .content{
@@ -38,4 +38,3 @@ h1, h2, p{
   flex-direction:column;
   align-items: center;
 }
-
